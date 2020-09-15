@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6FB9FEDF-2166-4C98-A3CC-01B074AC9FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Masstransit.Consumer", "src\Kafka.Masstransit.Consumer\Kafka.Masstransit.Consumer.csproj", "{95F6A5B2-CD3E-43CC-A4C8-4E2E4880F58A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kafka.Masstransit.Producer", "src\Kafka.Masstransit.Producer\Kafka.Masstransit.Producer.csproj", "{83EE85EB-FCEE-427B-B69A-94B7E1DD85A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{A108FB85-A34B-4E1D-A978-FC83FC90A9A9}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95F6A5B2-CD3E-43CC-A4C8-4E2E4880F58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95F6A5B2-CD3E-43CC-A4C8-4E2E4880F58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95F6A5B2-CD3E-43CC-A4C8-4E2E4880F58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95F6A5B2-CD3E-43CC-A4C8-4E2E4880F58A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EE85EB-FCEE-427B-B69A-94B7E1DD85A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EE85EB-FCEE-427B-B69A-94B7E1DD85A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EE85EB-FCEE-427B-B69A-94B7E1DD85A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EE85EB-FCEE-427B-B69A-94B7E1DD85A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95F6A5B2-CD3E-43CC-A4C8-4E2E4880F58A} = {6FB9FEDF-2166-4C98-A3CC-01B074AC9FFF}
+		{83EE85EB-FCEE-427B-B69A-94B7E1DD85A3} = {6FB9FEDF-2166-4C98-A3CC-01B074AC9FFF}
+	EndGlobalSection
+EndGlobal
